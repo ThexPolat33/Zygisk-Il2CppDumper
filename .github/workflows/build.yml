@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
       inputs:
         package_name:
-          description: "com.mobile.legends:"
+          description: "Package name of the game:"
           required: true
 
 jobs:
